@@ -39,7 +39,6 @@ Python 3 · Pandas · NumPy · Matplotlib · Scikit-learn · SciPy · NLTK · Te
 .
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 ├── 01_data_engineering/
 │   ├── task1_explore/01_explore_and_dict.py
 │   ├── task2_clean/02_clean_and_integrate.py
@@ -47,7 +46,9 @@ Python 3 · Pandas · NumPy · Matplotlib · Scikit-learn · SciPy · NLTK · Te
 ├── 02_eda_visualization/
 │   ├── task1_user_sales/11_user_sales_analysis.py
 │   ├── task2_product_review/12_product_review_analysis.py
-│   └── task3_dashboard/13_dashboard_data_prep.py
+│   └── task3_dashboard/
+│       ├── 13_dashboard_data_prep.py      # Tableau 仪表盘输入表导出
+│       └── dashboard.twbx                 # Tableau 交互式仪表盘工作簿（含数据）
 ├── 03_modeling/
 │   ├── task1_sentiment_lda/21_review_sentiment_lda.py
 │   └── task2_recommendation/
@@ -102,6 +103,10 @@ python 04_business_analysis\04_business_analysis.py
 ```
 
 各脚本产物（清洗后数据、宽表、图表、模型评估结果）写入各自任务目录下的 `output/`，全部可一键复现，因此不随仓库提交。
+
+## 可视化成果
+
+- **Tableau 交互式仪表盘**：工作簿见 [dashboard.twbx](02_eda_visualization/task3_dashboard/dashboard.twbx)（已打包数据，下载后用 Tableau Desktop / Tableau Reader 打开即可查看）。
 
 ## 口径与局限
 
