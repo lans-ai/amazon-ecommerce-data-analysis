@@ -54,7 +54,7 @@ Python 3 · Pandas · NumPy · Matplotlib · Scikit-learn · SciPy · NLTK · Te
 │       ├── 22_recommendation_cf.py
 │       └── 23_association_rules.py
 └── 04_business_analysis/
-    └── task1_business/04_business_analysis.py
+    └── 04_business_analysis.py
 ```
 
 ## 数据说明
@@ -98,7 +98,7 @@ python 03_modeling\task2_recommendation\22_recommendation_cf.py
 python 03_modeling\task2_recommendation\23_association_rules.py
 
 # ④ 商业分析
-python 04_business_analysis\task1_business\04_business_analysis.py
+python 04_business_analysis\04_business_analysis.py
 ```
 
 各脚本产物（清洗后数据、宽表、图表、模型评估结果）写入各自任务目录下的 `output/`，全部可一键复现，因此不随仓库提交。
